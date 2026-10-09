@@ -53,8 +53,8 @@ export default function WellnessDevice() {
         </div>
       </div>
       <div className="absolute inset-0 bg-center bg-cover bg-no-repeat z-10 pointer-events-none" style={{ backgroundImage: 'url(https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260713_140344_79e1296a-86d7-43fd-9b5f-63ffe560f291.png&w=1280&q=85)' }} />
-      <div className="absolute top-20 sm:top-28 md:top-32 w-full text-center z-20 pointer-events-none px-4">
-        <h2 className="font-instrument italic text-[18vw] sm:text-[10rem] md:text-[13rem] lg:text-[15rem] leading-[0.9] text-white drop-shadow-2xl whitespace-nowrap">YOU & ME</h2>
+      <div className="absolute top-20 sm:top-28 md:top-32 w-full text-center z-20 pointer-events-none">
+        <h2 className="font-instrument italic text-[4.5rem] xs:text-[5.5rem] sm:text-[10rem] md:text-[13rem] lg:text-[15rem] leading-[0.9] text-white drop-shadow-2xl">YOU & ME</h2>
       </div>
       <img src="https://soft-zoom-63098134.figma.site/_assets/v11/3f10f1876e118f72a396e05a6c2d099569478272.png" className="absolute inset-0 w-full h-full object-cover z-25 pointer-events-none opacity-80" alt="" />
       

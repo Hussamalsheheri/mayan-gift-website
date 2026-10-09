@@ -79,17 +79,17 @@ export default function MostarGuide() {
           TIMELESS
         </h1>
         
-        <div className="mostar-intro absolute bottom-12 w-full px-6 text-center z-50 font-inter text-[#fdf1e1] max-w-lg mx-auto left-1/2 -translate-x-1/2 text-base md:text-lg">
+        <div className="mostar-intro absolute bottom-12 w-full text-center z-50 font-inter text-[#fdf1e1] max-w-lg mx-auto left-1/2 -translate-x-1/2 text-lg">
           <p className="drop-shadow-lg">Every old city street reminds me of you... beautiful, timeless, and completely unforgettable.</p>
         </div>
 
         {/* Story Panels */}
-        <div className="mostar-panel-1 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-50 text-center opacity-0 pointer-events-none w-full px-4">
+        <div className="mostar-panel-1 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-50 text-center opacity-0 pointer-events-none">
           <h2 className="font-instrument text-5xl md:text-7xl text-[#fdf1e1] drop-shadow-xl">You are my compass.</h2>
           <p className="font-inter mt-6 text-[#fdf1e1] text-lg max-w-md mx-auto drop-shadow-md">Every path, every memory, and every step I take always leads me back to you.</p>
         </div>
 
-        <div className="mostar-panel-2 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-50 text-center opacity-0 pointer-events-none w-full px-4">
+        <div className="mostar-panel-2 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-50 text-center opacity-0 pointer-events-none">
           <h2 className="font-instrument text-5xl md:text-7xl text-[#fdf1e1] drop-shadow-xl">My heart belongs to you.</h2>
           <p className="font-inter mt-6 text-[#fdf1e1] text-lg max-w-md mx-auto drop-shadow-md">Walking through this life with you is the greatest journey. I will cherish every memory we make.</p>
         </div>

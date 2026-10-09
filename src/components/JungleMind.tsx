@@ -67,7 +67,7 @@ export default function JungleMind() {
               The AI that knows<br className="jm-brk" /> how much I love you.
             </h1>
             <p className="jm-sub">
-              This AI system is programmed to reason through everything carefully before answering. <br className="jm-brk" /> 
+              This AI system is programmed to reason through everything carefully before answering.<br className="jm-brk" /> 
               Ask me anything, Mayan. I know all of Husam's secrets.
             </p>
           </div>
@@ -75,14 +75,14 @@ export default function JungleMind() {
           <div ref={scrollContainerRef} className="w-full max-w-3xl mx-auto flex flex-col gap-4 mb-6 max-h-[60vh] overflow-y-auto px-4 scroll-smooth" style={{ scrollbarWidth: 'none' }}>
             {messages.map((msg, i) => (
               <div key={i} className={`flex w-full ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}>
-                <div className={`px-4 py-3 sm:px-6 sm:py-4 rounded-[1.5rem] sm:rounded-[2rem] max-w-[92%] sm:max-w-[85%] shadow-sm ${msg.role === 'user' ? 'bg-[#1a1a1a] text-white rounded-br-sm' : 'bg-white/80 backdrop-blur-lg text-[#111] rounded-bl-sm border border-white/30'}`}>
-                  <p className="text-[14px] sm:text-[17px] leading-[1.5] sm:leading-[1.6] font-medium whitespace-pre-wrap">{msg.text}</p>
+                <div className={`px-6 py-4 rounded-[2rem] max-w-[85%] shadow-sm ${msg.role === 'user' ? 'bg-[#1a1a1a] text-white rounded-br-sm' : 'bg-white/80 backdrop-blur-lg text-[#111] rounded-bl-sm border border-white/30'}`}>
+                  <p className="text-[15px] sm:text-[17px] leading-[1.6] font-medium whitespace-pre-wrap">{msg.text}</p>
                 </div>
               </div>
             ))}
             {isTyping && (
                <div className="flex w-full justify-start">
-                <div className="px-4 py-3 sm:px-6 sm:py-5 rounded-[1.5rem] sm:rounded-[2rem] max-w-[92%] sm:max-w-[85%] shadow-sm bg-white/80 backdrop-blur-lg text-[#111] rounded-bl-sm border border-white/30 flex items-center gap-2">
+                <div className="px-6 py-5 rounded-[2rem] max-w-[85%] shadow-sm bg-white/80 backdrop-blur-lg text-[#111] rounded-bl-sm border border-white/30 flex items-center gap-2">
                   <span className="w-2 h-2 bg-black/40 rounded-full animate-bounce"></span>
                   <span className="w-2 h-2 bg-black/40 rounded-full animate-bounce" style={{animationDelay: '0.2s'}}></span>
                   <span className="w-2 h-2 bg-black/40 rounded-full animate-bounce" style={{animationDelay: '0.4s'}}></span>

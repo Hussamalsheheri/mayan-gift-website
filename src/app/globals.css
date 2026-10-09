@@ -26,7 +26,7 @@ html, body {
 -------------------------------------- */
 .jm-hero { position:relative; height:100vh; height:100svh; min-height:620px; width:100%; overflow:hidden; display:flex; flex-direction:column }
 .jm-hero__bg { position:absolute; inset:0; z-index:0 }
-.jm-hero__bg video { position:absolute; inset:0; width:100%; height:100%; object-fit: cover }
+.jm-hero__bg video { position:absolute; inset:0; width:100%; height:100%; object-fit: fill }
 
 .jm-stage { position:relative; z-index:2; flex:1 1 auto; min-height:0; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:24px; gap:clamp(18px, 2.4vh, 26px) }
 
@@ -99,4 +99,85 @@ html, body {
   -webkit-mask-composite: xor;
   mask-composite: exclude;
   pointer-events: none;
+}
+
+/* =============================================
+   MOBILE-ONLY STYLES (max-width: 768px)
+   These styles ONLY affect phones.
+   Desktop (PC) design is completely untouched.
+============================================= */
+@media (max-width: 768px) {
+
+  /* --- Section 1: OrbitFlora (Flower) --- */
+  /* The MAYAN wordmark - scale it down for small screens */
+  section.isolate.cursor-crosshair h1.font-instrument {
+    font-size: 22vw !important;
+  }
+
+  /* --- Section 2: CelestialRenewal (Universe) --- */
+  /* Celestial heading on mobile */
+  .celestial-quote-section h3.font-instrument {
+    font-size: 1.4rem !important;
+    line-height: 1.5 !important;
+    padding: 0 8px;
+  }
+
+  /* --- Section 3: MostarGuide (Old City) --- */
+  .mostar-title {
+    font-size: 16vw !important;
+  }
+  .mostar-intro {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px !important;
+  }
+  .mostar-panel-1,
+  .mostar-panel-2 {
+    width: 100% !important;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+  .mostar-panel-1 h2,
+  .mostar-panel-2 h2 {
+    font-size: 2rem !important;
+  }
+  .mostar-panel-1 p,
+  .mostar-panel-2 p {
+    font-size: 14px !important;
+    padding: 0 8px;
+  }
+
+  /* --- Section 4: JungleMind (AI Chat) --- */
+  .jm-hero__bg video {
+    object-fit: cover !important;
+  }
+  .jm-stage {
+    padding: 16px;
+    gap: 12px;
+  }
+  .jm-headline {
+    font-size: 26px !important;
+    max-width: 18ch;
+  }
+  .jm-sub {
+    font-size: 13px !important;
+    line-height: 1.5;
+  }
+  .jm-prompt {
+    padding: 14px 14px 10px;
+    border-radius: 16px;
+  }
+  .jm-prompt__input {
+    font-size: 14px;
+    min-height: 48px;
+  }
+  .jm-icon-btn--send {
+    width: 38px;
+    height: 38px;
+    border-radius: 10px;
+  }
+
+  /* --- Section 5: WellnessDevice (YOU & ME) --- */
+  /* No changes needed — already uses responsive Tailwind classes */
+
 }
