@@ -182,10 +182,10 @@ export default function OrbitFlora() {
       </div>
 
       {/* Corner Copy (Love messages) */}
-      <div className="hidden md:block absolute bottom-12 left-12 z-30 max-w-[200px] text-white/70 text-sm font-medium leading-relaxed font-inter pointer-events-none">
+      <div className="absolute top-24 left-6 md:top-auto md:bottom-12 md:left-12 z-30 max-w-[150px] md:max-w-[200px] text-white/70 text-xs md:text-sm font-medium leading-relaxed font-inter pointer-events-none">
         I compare you to this flower,<br/> rare and enchanting.
       </div>
-      <div className="absolute bottom-6 md:bottom-12 right-6 md:right-12 z-30 max-w-[200px] text-white/70 text-xs md:text-sm font-medium leading-relaxed text-right font-inter pointer-events-none">
+      <div className="absolute bottom-10 right-6 md:bottom-12 md:right-12 z-30 max-w-[150px] md:max-w-[200px] text-white/70 text-xs md:text-sm font-medium leading-relaxed text-right font-inter pointer-events-none">
         You are the most beautiful<br/> coincidence in my life.
       </div>
     </section>
