@@ -67,7 +67,7 @@ export default function JungleMind() {
               The AI that knows<br className="jm-brk" /> how much I love you.
             </h1>
             <p className="jm-sub">
-              This AI system is programmed to reason through everything carefully before answering.<br className="jm-brk" /> 
+              This AI system is programmed to reason through everything carefully before answering. <br className="jm-brk" /> 
               Ask me anything, Mayan. I know all of Husam's secrets.
             </p>
           </div>
