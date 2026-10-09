@@ -177,15 +177,15 @@ export default function OrbitFlora() {
       </div>
 
       {/* Direct Canvas Rendering */}
-      <div className="absolute top-[10vh] left-1/2 -translate-x-1/2 h-[90vh] aspect-[3/4] z-20 pointer-events-none">
+      <div className="absolute top-[15vh] md:top-[10vh] left-1/2 -translate-x-1/2 w-[85vw] h-[60vh] md:w-auto md:h-[90vh] aspect-[3/4] z-20 pointer-events-none">
         <canvas ref={canvasRef} className="w-full h-full object-cover transition-transform duration-[2s] hover:scale-105" />
       </div>
 
       {/* Corner Copy (Love messages) */}
-      <div className="absolute bottom-12 left-8 md:left-12 z-30 max-w-[200px] text-white/70 text-sm font-medium leading-relaxed font-inter pointer-events-none">
+      <div className="hidden md:block absolute bottom-12 left-12 z-30 max-w-[200px] text-white/70 text-sm font-medium leading-relaxed font-inter pointer-events-none">
         I compare you to this flower,<br/> rare and enchanting.
       </div>
-      <div className="absolute bottom-12 right-8 md:right-12 z-30 max-w-[200px] text-white/70 text-sm font-medium leading-relaxed text-right font-inter pointer-events-none">
+      <div className="absolute bottom-6 md:bottom-12 right-6 md:right-12 z-30 max-w-[200px] text-white/70 text-xs md:text-sm font-medium leading-relaxed text-right font-inter pointer-events-none">
         You are the most beautiful<br/> coincidence in my life.
       </div>
     </section>

@@ -79,7 +79,7 @@ export default function MostarGuide() {
           TIMELESS
         </h1>
         
-        <div className="mostar-intro absolute bottom-12 w-full text-center z-50 font-inter text-[#fdf1e1] max-w-lg mx-auto left-1/2 -translate-x-1/2 text-lg">
+        <div className="mostar-intro absolute bottom-12 w-full px-6 text-center z-50 font-inter text-[#fdf1e1] max-w-lg mx-auto left-1/2 -translate-x-1/2 text-base md:text-lg">
           <p className="drop-shadow-lg">Every old city street reminds me of you... beautiful, timeless, and completely unforgettable.</p>
         </div>
 
